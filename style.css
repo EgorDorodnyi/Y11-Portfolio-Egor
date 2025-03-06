@@ -48,3 +48,8 @@ h1{
 .navbar li{
     float: right;
 }
+
+.contact{
+    float: center;
+    padding-bottom: 50px;
+}
