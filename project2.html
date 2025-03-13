@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Egor's Portfolio - About</title>
+  <title>Egor's Portfolio - Project 1</title>
   <style>
     body {
       background-color: blue;
@@ -32,13 +32,14 @@
       margin: 40px 0;
       flex-wrap: wrap;
     }
-    /* First section: image left, text right */
-    .section.section1 {
+    .section1 {
       flex-direction: row;
     }
-    /* Second section: image right, text left */
-    .section.section2 {
+    .section2 {
       flex-direction: row-reverse;
+    }
+    .section3 {
+      flex-direction: row;
     }
     .section img {
       width: 300px;
@@ -46,13 +47,16 @@
       object-fit: cover;
       margin: 10px;
     }
-    .section .text {
+    .text {
       max-width: 500px;
       margin: 10px;
       text-align: left;
     }
-
-
+    .image-caption {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
@@ -67,21 +71,41 @@
     </nav>
   </header>
   <main>
+    <h2>Project 2</h2>
+    <p>This is a Overview of my project 2</p>
+
     <section class="section section1">
-      <img src="PlaceHolder.jpg" alt="Placeholder Image 1" />
       <div class="text">
-        <h2>About Me</h2>
-        <p>
-          Welcome to my portfolio website. I’m Egor. I am 15 years old and i was born in june 2 2009. I am
-          a student at Western Springs College. 
-        </p>
+        <h3>Project Overview</h3>
+        <p>This section describes the main concept behind Project 1.</p>
+      </div>
+      <div>
+        <img src="PlaceHolder.jpg" alt="Project 1 Image 1">
+        <div class="image-caption">Conceptual design of the project.</div>
       </div>
     </section>
+
     <section class="section section2">
-      <img src="Cat.jpg" alt="Bella :3" />
       <div class="text">
-        <h7>My cat bella :3. she is almost 2 years old nad is a ragdoll, she is very cute but always is up to 
-            trouble. She is very playful and loves to play with toys or sctrach things.
-        </h7>
-        <p>
-    
+        <h3>Development</h3>
+        <p>Here’s how I implemented the project’s main features.</p>
+      </div>
+      <div>
+        <img src="PlaceHolder.jpg" alt="Project 1 Image 2">
+        <div class="image-caption">Development in progress.</div>
+      </div>
+    </section>
+
+    <section class="section section3">
+      <div class="text">
+        <h3>Final Outcome</h3>
+        <p>The finished project showcases my skills in development and design.</p>
+      </div>
+      <div>
+        <img src="PlaceHolder.jpg" alt="Project 1 Image 3">
+        <div class="image-caption">Completed project version.</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
