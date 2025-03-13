@@ -14,7 +14,14 @@ body {
     margin: 0 10px;
     text-decoration: none;
     color: white;
+    
   }
+
+  nav a:hover {
+    color: red;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+    }
+
   main {
     padding: 20px;
   }
